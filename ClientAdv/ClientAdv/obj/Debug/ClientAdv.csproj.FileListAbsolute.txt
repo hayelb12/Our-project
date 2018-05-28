@@ -1,0 +1,17 @@
+c:\users\user\source\repos\ClientAdv\ClientAdv\bin\Debug\ClientAdv.exe.config
+c:\users\user\source\repos\ClientAdv\ClientAdv\bin\Debug\ClientAdv.exe
+c:\users\user\source\repos\ClientAdv\ClientAdv\bin\Debug\ClientAdv.pdb
+c:\users\user\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.csprojResolveAssemblyReference.cache
+c:\users\user\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.Form1.resources
+c:\users\user\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.Properties.Resources.resources
+c:\users\user\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.SignUp.resources
+c:\users\user\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.csproj.GenerateResource.Cache
+c:\users\user\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.exe
+c:\users\user\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.pdb
+C:\Users\User\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.Home.resources
+C:\Users\User\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.ChangePassword.resources
+C:\Users\User\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.Settings.resources
+C:\Users\User\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.AddRoom.resources
+C:\Users\User\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.Room.resources
+C:\Users\User\source\repos\ClientAdv\ClientAdv\obj\Debug\ClientAdv.Search.resources
