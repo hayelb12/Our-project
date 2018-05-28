@@ -14,6 +14,8 @@ namespace ClientAdv
 {
     public partial class AddRoom : Form
     {
+		
+		
 
         private TcpClient clientSocket;
         private Form parent;
