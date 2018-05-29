@@ -84,30 +84,74 @@ namespace ClientAdv
             }
         }
 
-        private void checkToVisible()
+        private void checkToVisible1()
         {
             bool calender, hour, min;
             calender = this.startQueue.Value != null;
-            hour = this.startHour.SelectedValue != null;
-
-            min = this.startMin.SelectedValue != null;
+            hour = this.startHour.SelectedItem != null;
+            min = this.startMin.SelectedItem != null;
 
             if(calender && hour && min)
             {
-                this.EndQueue.Visible = Visible;
-                this.EndHour.Visible = Visible;
-                this.EndMin.Visible = Visible;
+                this.EndQueue.Visible = true;
+                this.EndHour.Visible = true;
+                this.EndMin.Visible = true;
+                this.Until.Visible = true;
+                this.startQueue.Enabled = false;
+                this.startHour.Enabled = false;
+                this.startMin.Enabled = false;
             }
         }
 
+        private void checkToVisible2()
+        {
+            bool calender, hour, min;
+            calender = this.EndQueue.Value != null;
+            hour = this.EndHour.SelectedItem != null;
+            min = this.EndMin.SelectedItem != null;
+
+            if (calender && hour && min)
+            {
+                this.label1.Visible = true;
+                this.comboBox1.Visible = true;
+                this.EndQueue.Enabled = false;
+                this.EndHour.Enabled = false;
+                this.EndMin.Enabled = false;
+            }
+        }
+
+
         private void startHour_SelectedIndexChanged(object sender, EventArgs e)
         {
-            checkToVisible();
+            checkToVisible1();
+            this.startQueue.Value.AddHours(double.Parse(startHour.SelectedItem.ToString()));
         }
 
         private void startMin_SelectedIndexChanged(object sender, EventArgs e)
         {
-            checkToVisible();
+            checkToVisible1();
+            this.startQueue.Value.AddMinutes(double.Parse(startMin.SelectedItem.ToString()));
+        }
+
+        private void EndHour_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            checkToVisible2();
+        }
+
+        private void EndMin_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            checkToVisible2();
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.CreateButton.Visible = true;
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.CreateButton.Visible = true;
         }
 
         private void startQueue_ValueChanged(object sender, EventArgs e)
