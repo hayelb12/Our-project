@@ -89,6 +89,7 @@ namespace ClientAdv
             this.Until.Size = new System.Drawing.Size(28, 13);
             this.Until.TabIndex = 4;
             this.Until.Text = "Until";
+            this.Until.Visible = false;
             // 
             // EndQueue
             // 
@@ -99,6 +100,7 @@ namespace ClientAdv
             this.EndQueue.Size = new System.Drawing.Size(320, 20);
             this.EndQueue.TabIndex = 3;
             this.EndQueue.Value = new System.DateTime(2018, 5, 21, 18, 39, 10, 316);
+            this.EndQueue.Visible = false;
             this.EndQueue.ValueChanged += new System.EventHandler(this.EndQueue_ValueChanged);
             // 
             // comboBox1
@@ -111,6 +113,7 @@ namespace ClientAdv
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 5;
+            this.comboBox1.Visible = false;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
@@ -121,6 +124,7 @@ namespace ClientAdv
             this.label1.Size = new System.Drawing.Size(82, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "How to Queue?";
+            this.label1.Visible = false;
             // 
             // comboBox2
             // 
@@ -130,6 +134,7 @@ namespace ClientAdv
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 7;
             this.comboBox2.Visible = false;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -159,6 +164,7 @@ namespace ClientAdv
             this.comboBox3.Size = new System.Drawing.Size(121, 21);
             this.comboBox3.TabIndex = 10;
             this.comboBox3.Visible = false;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // ReturnButton
             // 
@@ -178,6 +184,7 @@ namespace ClientAdv
             this.CreateButton.TabIndex = 12;
             this.CreateButton.Text = "Create";
             this.CreateButton.UseVisualStyleBackColor = true;
+            this.CreateButton.Visible = false;
             // 
             // EndMin
             // 
@@ -186,6 +193,8 @@ namespace ClientAdv
             this.EndMin.Name = "EndMin";
             this.EndMin.Size = new System.Drawing.Size(51, 21);
             this.EndMin.TabIndex = 13;
+            this.EndMin.Visible = false;
+            this.EndMin.SelectedIndexChanged += new System.EventHandler(this.EndMin_SelectedIndexChanged);
             // 
             // startHour
             // 
@@ -203,6 +212,8 @@ namespace ClientAdv
             this.EndHour.Name = "EndHour";
             this.EndHour.Size = new System.Drawing.Size(51, 21);
             this.EndHour.TabIndex = 15;
+            this.EndHour.Visible = false;
+            this.EndHour.SelectedIndexChanged += new System.EventHandler(this.EndHour_SelectedIndexChanged);
             // 
             // startMin
             // 
