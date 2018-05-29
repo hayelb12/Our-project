@@ -109,5 +109,15 @@ namespace ClientAdv
         {
             checkToVisible();
         }
+
+        private void startQueue_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

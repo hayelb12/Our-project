@@ -58,6 +58,7 @@ namespace ClientAdv
             this.startQueue.Size = new System.Drawing.Size(320, 20);
             this.startQueue.TabIndex = 0;
             this.startQueue.Value = new System.DateTime(2018, 5, 21, 18, 32, 5, 653);
+            this.startQueue.ValueChanged += new System.EventHandler(this.startQueue_ValueChanged);
             // 
             // Title
             // 
@@ -178,6 +179,7 @@ namespace ClientAdv
             this.CreateButton.TabIndex = 12;
             this.CreateButton.Text = "Create";
             this.CreateButton.UseVisualStyleBackColor = true;
+            this.CreateButton.Click += new System.EventHandler(this.CreateButton_Click);
             // 
             // EndMin
             // 

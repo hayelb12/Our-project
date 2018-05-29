@@ -14,7 +14,7 @@ namespace Final
 
         public DataBase()
         {
-            string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:\Users\User\source\repos\Server\Server\bin\Debug\DataBase.accdb; Persist Security Info = False;";
+            string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:\Users\User\Documents\GitHub\Our-project; Persist Security Info = False;";
 
             con.ConnectionString = connectionString;
 
